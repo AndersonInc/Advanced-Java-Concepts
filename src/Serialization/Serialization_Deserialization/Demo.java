@@ -1,4 +1,4 @@
-package Serialization_Deserialization;
+package Serialization.Serialization_Deserialization;
 
 import java.io.*;
 
