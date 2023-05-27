@@ -5,11 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0d48fdb-3728-468c-a97c-9cfe9ef6b1d0" name="Changes" comment="Concepts">
-      <change afterPath="$PROJECT_DIR$/src/mvc2/EmpController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvc2/EmpView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvc2/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvc2/MVCpattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Casting/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Casting/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Casting/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JDBC/Insert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sockets/EchoClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sockets/EchoServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sockets2/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sockets2/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Concepts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Concepts.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JDBC/DBdriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JDBC/DBdriver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,21 +53,44 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Kingdom/Downloads/mysql-connector-j-8.0.32.jar&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;web.server&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
 }</component>
-  <component name="RunManager" selected="Application.mvc2.MVCpattern">
+  <component name="RunManager" selected="Application.DBdriver">
+    <configuration name="DBdriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JDBC.DBdriver" />
+      <module name="Concepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JDBC.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InnerClasses.NestedClasses.Nested.Driver" />
+      <option name="MAIN_CLASS_NAME" value="Casting.Driver" />
       <module name="Concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InnerClasses.NestedClasses.Nested.*" />
+          <option name="PATTERN" value="JDBC.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InnerClasses.NestedClasses.MethodNested.Outer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InnerClasses.NestedClasses.MethodNested.Outer" />
+    <configuration name="EchoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sockets.EchoClient" />
       <module name="Concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InnerClasses.NestedClasses.MethodNested.*" />
+          <option name="PATTERN" value="Sockets.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InnerClasses.NestedClasses.Static.Outer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InnerClasses.NestedClasses.Static.Outer" />
+    <configuration name="EchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sockets.EchoServer" />
       <module name="Concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InnerClasses.NestedClasses.Static.*" />
+          <option name="PATTERN" value="Sockets.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,25 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MVCpattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MVC.MVCpattern" />
+    <configuration name="Insert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JDBC.Insert" />
       <module name="Concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MVC.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="mvc2.MVCpattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mvc2.MVCpattern" />
-      <module name="Concepts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mvc2.*" />
+          <option name="PATTERN" value="JDBC.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.mvc2.MVCpattern" />
-        <item itemvalue="Application.MVCpattern" />
-        <item itemvalue="Application.InnerClasses.NestedClasses.Static.Outer" />
-        <item itemvalue="Application.InnerClasses.NestedClasses.MethodNested.Outer" />
+        <item itemvalue="Application.DBdriver" />
+        <item itemvalue="Application.Insert" />
         <item itemvalue="Application.Driver" />
+        <item itemvalue="Application.EchoClient" />
+        <item itemvalue="Application.EchoServer" />
       </list>
     </recent_temporary>
   </component>
@@ -142,26 +161,32 @@
       <workItem from="1683785934821" duration="517000" />
       <workItem from="1683785988171" duration="3790000" />
       <workItem from="1684475704725" duration="2290000" />
-      <workItem from="1684577517579" duration="1231000" />
-      <workItem from="1684854501024" duration="611000" />
-      <workItem from="1684940974642" duration="1196000" />
-      <workItem from="1684999472508" duration="7760000" />
-      <workItem from="1685042092322" duration="840000" />
-      <workItem from="1685112603698" duration="1553000" />
-      <workItem from="1685227322211" duration="778000" />
+      <workItem from="1685490613848" duration="348000" />
+      <workItem from="1685621981693" duration="913000" />
+      <workItem from="1685637076877" duration="596000" />
+      <workItem from="1685736641616" duration="4025000" />
+      <workItem from="1685764919753" duration="227000" />
+      <workItem from="1685899314055" duration="15165000" />
+      <workItem from="1686097917722" duration="399000" />
+      <workItem from="1686652090646" duration="3694000" />
+      <workItem from="1686664111647" duration="5907000" />
+      <workItem from="1686734870300" duration="6590000" />
     </task>
-    <task id="LOCAL-00001" summary="Concepts">
-      <created>1685009609421</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1685009609421</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Concepts" />
