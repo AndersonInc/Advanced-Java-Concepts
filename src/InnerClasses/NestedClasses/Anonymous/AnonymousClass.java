@@ -1,7 +1,7 @@
 package InnerClasses.NestedClasses.Anonymous;
 
 public class AnonymousClass {
-    public void CreateAnonymous() {
+    public void createAnonymous() {
         Anonymous ano = new Anonymous() {
             public void display() {
                 System.out.println("This is the create anonymous class");
